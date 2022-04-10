@@ -1,0 +1,25 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+float avg,km;
+cout<<"this program is to calculate your TOYOTA PRIUS average and to remind you of an oil change"<<endl;
+cout<<"please enter your kilometers"<<endl;
+cin>>km;
+if(km<=250&&300>=km)
+{
+	cout<<"please visit our nearest service station,oil change after 300 km\n "<<endl;
+	cout<<"your average is ="<<km/43<<endl;
+}
+	else if(km>300)
+	{
+		cout<<"please visit nour nearest service station to get an oil change\n"<<endl;
+		cout<<"your average is ="<<km/43<<endl;	
+	}
+  else
+  {
+  	cout<<"please enter the correct parameters"<<endl;
+  }
+  return 0;
+}
